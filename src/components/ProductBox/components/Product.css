@@ -1,0 +1,23 @@
+.product-box {
+    margin: 10px 0;
+}
+
+.product-box img {
+    border-radius: 7px;
+    box-shadow: 0 0 6px 0 rgba(13, 13, 13, 0.16);
+    max-height: 250px;
+}
+
+.product-box-list {
+    max-height: 750px;
+    overflow: auto;
+}
+
+.load-more {
+    padding: 2% 0;
+}
+
+.load-more button {
+    display: block;
+    margin: 0 0 0 auto;
+}

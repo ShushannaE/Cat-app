@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+
+::selection {
+    background-color: #eee;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: #eee;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #acacac;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #707070;
+}
+
+.conatiner-box {
+    padding: 5%;
+}
+
+.flex-box {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.flex-box .box-12 {
+    width: 98%;
+    padding: 0 1%;
+}
+
+.flex-box .box-9 {
+    width: 73%;
+    padding: 0 1%;
+}
+
+.flex-box .box-6 {
+    width: 48%;
+    padding: 0 1%;
+}
+
+.flex-box .box-4 {
+    width: 31.3333333333%;
+    padding: 0 1%;
+}
+
+.flex-box .box-3 {
+    width: 23%;
+    padding: 0 1%;
+}
+
+.flex-box .box-2 {
+    width: 18%;
+    padding: 0 1%;
+}
+
+.flex-box .box-10 {
+    width: 79%;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 7px;
+    background-color: #007bff;
+    padding: 12px 30px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    opacity: 0.8;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .conatiner-box {
+        padding: 1%;
+    }
+    .flex-box .box-3 {
+        width: 98%;
+    }
+    .flex-box .box-9 {
+        width: 98%;
+    }
+}
